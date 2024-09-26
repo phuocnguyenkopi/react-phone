@@ -1,0 +1,48 @@
+.cate {
+  padding: 70px 0;
+}
+
+.cate-title {
+  text-align: center;
+  padding: 30px;
+  p:first-child {
+    font-style: italic;
+    font-size: 14px;
+    color: #ccc;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+  }
+}
+.cate-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  > div {
+    &:first-child,
+    &:nth-child(2) {
+      width: calc(100% / 2 - 20px);
+    }
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5) {
+      width: calc(100% / 3 - 20px);
+    }
+    &:hover {
+      opacity: 0.7;
+      transition: all 500ms;
+      transform: translateY(-5px);
+    }
+
+    > a {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

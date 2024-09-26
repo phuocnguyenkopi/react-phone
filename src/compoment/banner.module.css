@@ -1,0 +1,33 @@
+.banner {
+  position: relative;
+}
+.banner-img {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.banner-summary {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  width: 300px;
+  p {
+    color: #aaa;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px 0;
+  }
+
+  button {
+    background-color: #383838;
+    color: #ccc;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}

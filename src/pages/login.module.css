@@ -1,0 +1,48 @@
+.login {
+  height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../../public/img/banner1.jpg) center/cover;
+  .formbox {
+    width: 400px;
+    margin-top: -70px;
+    padding: 50px;
+    box-shadow: 0 0 8px #ccc;
+    background-color: white;
+    border-radius: 10px;
+    h2 {
+      text-align: center;
+      font-size: 32px;
+      font-weight: 500;
+      font-style: italic;
+      padding: 10px 0;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 500;
+      font-style: italic;
+    }
+  }
+  form {
+    padding: 40px 0;
+    input {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      padding: 15px;
+      border: 1px solid #e7e7e7;
+    }
+    button {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: 500;
+      background-color: black;
+      color: #ccc;
+    }
+  }
+}

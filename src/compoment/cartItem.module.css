@@ -1,0 +1,30 @@
+.itemCart {
+  display: grid;
+  gap: 2%;
+  padding: 20px 0;
+  grid-template-columns: 10% repeat(5, calc(80% / 5));
+  align-items: center;
+  text-align: center;
+}
+
+.itemCart {
+  .itemCartName {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+  }
+}
+.quantity {
+  span {
+    padding: 7px;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
+.price {
+  font-weight: 300;
+  font-style: italic;
+}
+.itemCartImg img {
+  width: 100%;
+}

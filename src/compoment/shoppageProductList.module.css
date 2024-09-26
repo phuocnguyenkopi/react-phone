@@ -1,0 +1,21 @@
+.shoppage-productList {
+  width: 76%;
+}
+.shoppage-listProduct {
+  display: grid;
+  column-gap: 3%;
+  row-gap: 20px;
+  grid-template-columns: repeat(3, calc(94% / 3));
+}
+.formSearch {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    padding: 7px;
+    border: none;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+}

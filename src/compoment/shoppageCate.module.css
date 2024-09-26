@@ -1,0 +1,37 @@
+.shopCate-left {
+  width: 20%;
+  h2 {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  ul {
+    .nameCate {
+      padding: 10px 15px;
+      display: block;
+      background-color: #d8d8d8;
+      font-weight: 500;
+    }
+    li {
+      a {
+        padding: 10px 15px;
+        color: #aaa;
+        display: block;
+      }
+      a:hover {
+        background-color: #edecec;
+      }
+
+      a.active {
+        font-weight: 600;
+        color: navajowhite;
+      }
+    }
+  }
+}
+.brand {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+}

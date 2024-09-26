@@ -1,0 +1,12 @@
+.listRela {
+  display: grid;
+  column-gap: 3%;
+  row-gap: 20px;
+  grid-template-columns: repeat(5, calc(94% / 5));
+  padding-bottom: 60px;
+}
+.relaTitle {
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: 500;
+}

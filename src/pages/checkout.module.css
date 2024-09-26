@@ -1,0 +1,81 @@
+.checkoutContainer {
+  padding: 50px 0;
+  h3 {
+    padding: 10px 0;
+  }
+}
+.checkout {
+  display: flex;
+  column-gap: 2%;
+  .checkout-left {
+    width: 70%;
+  }
+  .checkout-right {
+    width: 28%;
+    > div {
+      background-color: #f8f9fa;
+      padding: 30px;
+    }
+  }
+}
+.checkout-left {
+  > div {
+    padding: 10px 0;
+    label {
+      padding: 0 0 10px 0;
+      font-size: 16px;
+      font-weight: 200;
+      font-style: italic;
+      display: block;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px #ccc solid;
+    }
+    .placeBtn {
+      padding: 10px 25px;
+      background-color: black;
+      color: #f8f9fa;
+      font-size: 20px;
+      font-weight: lighter;
+      font-style: italic;
+    }
+  }
+}
+
+.totalTitle {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  padding: 25px 0;
+}
+
+.rightContainer {
+  font-style: italic;
+  font-size: 14px;
+  > p {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    &:last-child {
+      span {
+        font-size: 18px;
+        font-weight: 600;
+      }
+    }
+    span {
+      font-size: 14px;
+      &:first-child {
+        font-weight: 500;
+      }
+      + span {
+        color: #acacac;
+      }
+    }
+    + p {
+      border-top: 1px #d3d3d3 solid;
+    }
+  }
+}

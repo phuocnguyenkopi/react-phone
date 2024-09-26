@@ -1,0 +1,21 @@
+footer {
+  background-color: black;
+  padding: 70px 0;
+}
+
+.footer {
+  display: flex;
+  > div {
+    width: calc(100% / 3);
+    h3 {
+      font-size: 20px;
+      color: white;
+      padding-bottom: 30px;
+      font-weight: 500;
+    }
+    ul > li > a {
+      color: #ccc;
+      font-size: 14px;
+    }
+  }
+}

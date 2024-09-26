@@ -1,0 +1,36 @@
+header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.header > main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav > ul > li > a {
+  color: black;
+}
+.header nav > ul > li > a:hover,
+.header nav > ul > li > a.active {
+  color: #e5a83a;
+  font-weight: 600;
+}
+
+.nav-left ul,
+.nav-right ul {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-center a {
+  font-size: 28px;
+  color: black;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.header nav > ul > li > button {
+  color: black;
+  background: none;
+}

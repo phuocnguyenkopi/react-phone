@@ -1,0 +1,11 @@
+.leftShop {
+  font-size: 34px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.shopCate {
+  display: flex;
+  padding: 40px 0;
+  gap: 4%;
+}

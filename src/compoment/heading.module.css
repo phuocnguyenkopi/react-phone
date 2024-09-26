@@ -1,0 +1,17 @@
+.heading {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.leftHeading {
+  font-size: 34px;
+  font-weight: 500;
+  font-style: italic;
+}
+.pre {
+  font-size: 16px;
+  color: #ccc;
+  font-weight: 300;
+}
