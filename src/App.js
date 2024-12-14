@@ -9,13 +9,7 @@ import Cart from "./pages/Cart";
 import Detail from "./pages/Detail";
 import { getAuth } from "./util/auth";
 import Checkout from "./pages/Checkout";
-import { lazy } from "react";
-let routes = createRoutesFromElements(
-  <Route path="/" element={<Layout />}>
-    <Route path="a" lazy={() => import("./a")} />
-    <Route path="b" lazy={() => import("./b")} />
-  </Route>
-);
+
 const router = createBrowserRouter([
   {
     path: "/",
